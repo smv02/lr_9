@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 100px auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.block{
+    width: 175px;
+    margin: 10px 50px;
+    text-align: center;
+}
+.numberOfWins{
+    background-color: #7b68ee;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 32px;
+}
+.score{
+    margin-top: 20px;
+}
+.score img{
+    width: 175px;
+}
+.start{
+    align-self: center;
+    text-align: center;
+}
+.generate{
+    margin: 20px 40px 0 40px;
+    background-color: #02bb02;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
